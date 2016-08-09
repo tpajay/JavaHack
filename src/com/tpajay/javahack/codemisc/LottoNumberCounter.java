@@ -1,4 +1,4 @@
-package com.tpajay.codemisc;
+package com.tpajay.javahack.codemisc;
 
 import java.io.*;
 import java.util.*;

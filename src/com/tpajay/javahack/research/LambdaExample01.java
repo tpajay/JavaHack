@@ -1,4 +1,4 @@
-package com.tpajay.javahack;
+package com.tpajay.javahack.research;
 
 interface ExecutableInterface {
 	int execute();
