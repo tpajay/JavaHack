@@ -1,5 +1,6 @@
 package com.tpajay.javahack;
 
+//Nested Local Inner Class
 public class LocalClassExample {
 	  
     static String regularExpression = "[^0-9]";
