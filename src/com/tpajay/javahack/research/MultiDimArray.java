@@ -2,9 +2,7 @@ package com.tpajay.javahack.research;
 
 public class MultiDimArray 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
         
         String[] arrayTest = new String[] {"Bob","Kim","Johnny","Susie"};
         
