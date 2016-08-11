@@ -3,7 +3,7 @@ package com.tpajay.javahack.codemisc;
 import java.io.*;
 import java.util.*;
 
-//Takes a reduced/scrubbed list of all Lottery winning numbers
+//Takes a scrubbed list of all Lottery winning numbers 
 //and counts the number of times a certain number has hit
 //Example input:
 //  04 48 45 08 01 12
