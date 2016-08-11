@@ -1,4 +1,4 @@
-package com.tpajay.javahack.interfacetest;
+package com.tpajay.javahack.interfacepolymorphtest;
 
 public class Jimmy implements Person {
 

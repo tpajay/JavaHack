@@ -1,14 +1,15 @@
-package com.tpajay.javahack.interfacetest;
+package com.tpajay.javahack.interfacepolymorphtest;
 
+//Polymorphism: single interface to entities of different types
 //interface defines the API not the implementation
-//Person iterface is defined, not additional developers
-//can implement the interface and customize their Person(Jason, Evan, etc) methods
-//because the interfaces tells them what methods to code
+//Person interface is defined
+//developers can implement the interface and customize their implementation
+//The interface defines the implementation
 public class PersonTest {
 	
 	public static void main(String[] args){
 		
-		//Polymorphic, stored in Person variable as Evan is a Person
+		//Polymorphic, stored in Person variable as Jimmy is a Person
 		Susie person1 = new Susie();
 		Person person2 = new Jimmy();
 		
