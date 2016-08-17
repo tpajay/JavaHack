@@ -173,7 +173,7 @@ import java.util.*;
 
 			newpage.append("\n");
 
-			newpage.append("<link href=\"./resources/css/crossroadssup.css\" type=\"text/css\" rel=\"stylesheet\">\n");
+			newpage.append("<link href=\"./resources/css/app.css\" type=\"text/css\" rel=\"stylesheet\">\n");
 
 			newpage.append("\n");
 
