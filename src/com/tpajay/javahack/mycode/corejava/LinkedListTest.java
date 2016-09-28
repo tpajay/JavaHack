@@ -3,10 +3,11 @@ package com.tpajay.javahack.mycode.corejava;
 import java.util.*;
 import com.tpajay.javahack.mycode.Employee;
 
-
 // ArrayList:  Uses index based Array, can expand and reduce list. Dynamic Array
 //             Most used
-// LinkedList: Uses Doubled Linked List Data Structure
+// LinkedList: Uses Doubled Linked List (doubly linked list) Data Structure
+//                 linked records called nodes, each node contains two fields that are
+//                 references to previous and next node in the sequence of nodes.
 //             Overall faster than an ArrayList
 //             Is a sequence of NODES that contains two parts: data(String, object) 
 //                 and reference(memory address) to next NODE in the list

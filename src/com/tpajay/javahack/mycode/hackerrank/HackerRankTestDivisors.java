@@ -1,6 +1,6 @@
 package com.tpajay.javahack.mycode.hackerrank;
 
-//Output all divsors of a number then output the sum of all
+//Output all divisors of a number then output the sum of all
 //eg. Divisors of 6 are 1,2,3 and 6. 1+2+3+6=12
 public class HackerRankTestDivisors {
 	
@@ -28,7 +28,7 @@ public class HackerRankTestDivisors {
 		for(int i=1;i<=x;i++) {
 			// If remainder is 0 when x is divided by i 
 			// then it is a divisor of the number
-			if(x%i==0) {
+			if(x % i == 0) {
 				sum = sum+i;
 				System.out.print("Divisor found: " + i +"\n");
 			}
