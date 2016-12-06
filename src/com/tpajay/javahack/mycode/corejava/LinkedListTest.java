@@ -15,6 +15,21 @@ import com.tpajay.javahack.mycode.Employee;
 //             Best Choice of insertion/deletion in middle of list
 // ArrayList and LinkedList are NOT synchronized.  To synchronize you must use
 // List list = Collections.synchronizedList(new LinkedList(...));
+
+
+/*
+ * add
+ * set - replace element at index position
+ * size
+ * toArray
+ * getFirst
+ * getLast
+ * indexOf
+ * remove
+ * removeFirst
+ * removeLast
+ * 
+ */
 public class LinkedListTest {
 	
 	public static void main(String args[]){		
