@@ -71,7 +71,7 @@ public class LinkedListTest {
 		System.out.println("---------------------------------------------------");
 		
 		System.out.println("Adding new Employee Tom Cruise in middle index 2:");
-		Employee emp5 = new Employee("Tom", "Cruise", "Church of Scientology", "Clearwater", "FL", "33602");
+		Employee emp5 = new Employee("Tom", "Cruise", "Hollywood", "Clearwater", "FL", "33602");
 		linkedList.add(2, emp5);
 		outputList(linkedList);
 		
