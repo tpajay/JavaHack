@@ -58,19 +58,19 @@ public class LinkedListTest {
 		System.out.println("---------------------------------------------------");
 		
 		//Remove emp2 show output
-		System.out.println("Removing Employee Travis Barker currently at index 2:");
+		System.out.println("Removing Employee Travis Barker currently at index 2 - linkedList.remove(2):");
 		linkedList.remove(2);
 		outputList(linkedList);
 				
 		System.out.println("---------------------------------------------------");
 		
-		System.out.println("Re-adding Employee Travis Barker but to top, index 0:");
+		System.out.println("Re-adding Employee Travis Barker but to top, index 0 - linkedList.addFirst(emp3):");
 		linkedList.addFirst(emp3);
 		outputList(linkedList);
 		
 		System.out.println("---------------------------------------------------");
 		
-		System.out.println("Adding new Employee Tom Cruise in middle index 2:");
+		System.out.println("Adding new Employee Tom Cruise in middle index 2 - linkedList.add(2, emp5);:");
 		Employee emp5 = new Employee("Tom", "Cruise", "Hollywood", "Clearwater", "FL", "33602");
 		linkedList.add(2, emp5);
 		outputList(linkedList);
@@ -87,3 +87,33 @@ public class LinkedListTest {
 		}			
 	}
 }
+
+/*	RESULTS
+ 
+	Starting List:
+	Employee at index 0 is Bob Smith
+	Employee at index 1 is Susie Smith
+	Employee at index 2 is Travis Barker
+	Employee at index 3 is Kurt Cobain
+	---------------------------------------------------
+	Employee at index 2: Travis Barker
+	---------------------------------------------------
+	Removing Employee Travis Barker currently at index 2:
+	Employee at index 0 is Bob Smith
+	Employee at index 1 is Susie Smith
+	Employee at index 2 is Kurt Cobain
+	---------------------------------------------------
+	Re-adding Employee Travis Barker but to top, index 0:
+	Employee at index 0 is Travis Barker
+	Employee at index 1 is Bob Smith
+	Employee at index 2 is Susie Smith
+	Employee at index 3 is Kurt Cobain
+	---------------------------------------------------
+	Adding new Employee Tom Cruise in middle index 2:
+	Employee at index 0 is Travis Barker
+	Employee at index 1 is Bob Smith
+	Employee at index 2 is Tom Cruise
+	Employee at index 3 is Susie Smith
+	Employee at index 4 is Kurt Cobain
+*/
+

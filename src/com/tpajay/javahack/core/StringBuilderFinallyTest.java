@@ -8,10 +8,6 @@ public class StringBuilderFinallyTest {
 		//unless you use a System.exit(0);
 		System.out.println(setOne().toString());
 		
-		//forces nullpointerexception, calls method on null instance.
-		String name = null;
-		System.out.println(name.length());
-		
 	}
 
 	protected static StringBuilder setOne() {
@@ -21,8 +17,9 @@ public class StringBuilderFinallyTest {
 	    try{
 	    	
 	        builder.append("String1");
-	        return builder.append("String2");
-	        
+	        //System.exit(0);
+	        return builder.append("String2"); //return here but still calls finally.
+	        	        
 	    }finally{
 	    	
 	        builder.append("+1");

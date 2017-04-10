@@ -7,11 +7,13 @@ public class FinalStaticTest {
 		FinalStatic fs = new FinalStatic(100,4,5,6);
 		fs.display();
 		
-		//fs.city = "Dallas";
+		//fs.CITY = "Dallas";
 		//fs.display();
 		
 		//fs.city = "Atlanta";
 		//fs.display();
+		
+		System.out.println(fs.getCity());
 
 	}
 

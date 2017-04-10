@@ -16,7 +16,7 @@ public class HackerRankTest1 {
 
 	static void createStairCase(int n){
 	
-		if(n > 100) n=100; //never more than 10
+		if(n > 100) n=100; //never more than 100
 		
 		int stairs=0;
 		int count=0;

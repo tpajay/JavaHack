@@ -10,6 +10,7 @@ public class FinalStatic {
     //marked final so it can not be changed
     //marked static so it is part of the class, not instance, so
     //only one instance of a static field exists
+    //   ...saves memory since several instances of same are not created
     //ALSO, static methods are usually like math function as they always
     //have the same output for same input (static)
     public final static String CITY = "Tampa";
@@ -20,8 +21,16 @@ public class FinalStatic {
          yPos = y;
          zPos = z;
     }
+          
+    public static String getCity() {
+		return CITY;
+	}
     
-    public void display() {
+    
+
+
+
+	public void display() {
     	System.out.println("Radius: " + radius);
     	System.out.println("xPos: " + xPos);
     	System.out.println("yPos: " + yPos);
